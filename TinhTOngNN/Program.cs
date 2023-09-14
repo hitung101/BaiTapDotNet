@@ -22,6 +22,7 @@ namespace TinhTOngNN
                     sum += term;
                 }
 
+
                 Console.WriteLine($"Tổng của dãy S từ 11 đến {n}{n} là: {sum}");
             }
             else
