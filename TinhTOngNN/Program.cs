@@ -11,23 +11,22 @@ namespace TinhTOngNN
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            Console.Write("Nhập giá trị của n (n > 10): ");
-            int n;
-
-            if (int.TryParse(Console.ReadLine(), out n) && n > 10)
+            Console.Write("Nhập giá trị của n lớn hơn 10 ");
+            if (int.TryParse(Console.ReadLine(), out int n))
             {
                 int sum = 0;
 
-                for (int i = 11; i <= n; i++)
+                for (int i = 1; i <= n; i++)
                 {
-                    sum += i * 11; // Thêm i * 11 vào tổng
+                    int term = int.Parse($"{i}{i}"); // Tạo số dạng nn
+                    sum += term;
                 }
 
-                Console.WriteLine("Tổng của dãy S = 11 + 22 + 33 + ... + " + n + " là: " + sum);
+                Console.WriteLine($"Tổng của dãy S từ 11 đến {n}{n} là: {sum}");
             }
             else
             {
-                Console.WriteLine("Vui lòng nhập một số nguyên lớn hơn 10.");
+                Console.WriteLine("Vui lòng nhập một số nguyên hợp lệ.");
             }
             Console.ReadLine();
         }
