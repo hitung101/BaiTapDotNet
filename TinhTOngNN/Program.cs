@@ -21,8 +21,6 @@ namespace TinhTOngNN
                     int term = int.Parse($"{i}{i}"); // Tạo số dạng nn
                     sum += term;
                 }
-
-
                 Console.WriteLine($"Tổng của dãy S từ 11 đến {n}{n} là: {sum}");
             }
             else
