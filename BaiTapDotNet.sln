@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.33328.57
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLBT", "BaiTapDotNet\QLBT.csproj", "{114B40E3-BA2F-4ADA-AB41-641A86A4D2C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhanTuLonT2", "PhanTuLonT2\PhanTuLonT2.csproj", "{93657431-0C3A-4BB4-84C2-42A5607678D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinhTOngNN", "TinhTOngNN\TinhTOngNN.csproj", "{7DA8D47A-E937-4B2C-ACB5-3F1A57DDA8D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{114B40E3-BA2F-4ADA-AB41-641A86A4D2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{114B40E3-BA2F-4ADA-AB41-641A86A4D2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114B40E3-BA2F-4ADA-AB41-641A86A4D2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93657431-0C3A-4BB4-84C2-42A5607678D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93657431-0C3A-4BB4-84C2-42A5607678D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93657431-0C3A-4BB4-84C2-42A5607678D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93657431-0C3A-4BB4-84C2-42A5607678D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA8D47A-E937-4B2C-ACB5-3F1A57DDA8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA8D47A-E937-4B2C-ACB5-3F1A57DDA8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA8D47A-E937-4B2C-ACB5-3F1A57DDA8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA8D47A-E937-4B2C-ACB5-3F1A57DDA8D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
